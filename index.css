@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background: linear-gradient(135deg, #ccf7f4, #9ae0e0);
+    text-align: center;
+    font-family: "Bebas Neue", serif;
+}
+
+.font {
+    font-family: "Bebas Neue", serif;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5vmin;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: chocolate;
+    border: 2px solid black;
+    background: rgba(255, 255, 255, 0.6);
+    transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.box:hover {
+    background: #fff;
+    transform: scale(1.1);
+}
+
+#reset-btn {
+    margin: 15px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: black;
+    color: antiquewhite;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background: antiquewhite;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+#new-btn{
+    /* margin: 80px; */
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: black;
+    color: antiquewhite;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+#new-btn:hover{
+    background: antiquewhite;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+#meg{
+    
+    color: rgb(35, 34, 34);
+    font-size: 4vmin;
+  
+}
+.mesg-contaner{
+height: 30vmin;
+}
+.hide{
+    display: none;
+}
